@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- para establecer el idioma por defecto  -->
+    <head><!-- provee información general (metadatos) acerca del documento  -->
+        <title>Documentos</title><!--  definimos el título del documento que se muestra en la pestaña de la página.   -->
+        <link rel="stylesheet" href="estilo.css"> <!--  definimos la hoja de estilo  -->
+    </head>
+    <body><!-- lo utilizamos para definir el cuerpo del documento  -->
+        <form action="guardar.php" method="post" enctype="multipart/form-data" class="form"> <!--  cremamos el formulario y será enviada a un archivo php llamado guardar.php  -->
+            <ol><!-- nos permite definir listas ordenadas   -->
+                <li>Nombre <input></input></li><br> <!-- comenzamos a crear el formulario con la informacion proporcionada   -->
+                <li>Apellido <input></input></li><br>
+                <li>Ciudad <input></input></li><br>   
+                <li>Fecha de inicio <input></input></li><br>
+                <li>Foto <input type="file"></input></li><br>
+                <li>Comprobante de pago <input type="file"></input></li><br>
+            </ol>
+        </form>
+        <table><!-- creamos la tabla   -->
+            <tr><!--  creamos la filas de tablas  -->
+                <td>N de socios</td><!-- con <td> creamos las celdas con los datos proporcionados -->
+                <td>Apellidos</td>
+                <td>Nombres</td>
+                <td>Ciudad</td>
+                <td>Fecha de inicio</td>
+            </tr>
+            <tr>
+                <td>2423</td>
+                <td>Pérez Martínez</td>
+                <td>Juan José</td>
+                <td>Portoviejo</td>
+                <td>2022-11-01</td>
+            </tr>
+                <tr>
+                <td>4438</td>
+                <td>Martínez Gómez</td>
+                <td>María Beatriz</td>
+                <td>Manta</td>
+                <td>2022-01-01</td>
+            </tr>
+                <tr>
+                <td>4334</td>
+                <td>Gómez Rodríguez</td>
+                <td>Carlos Alberto</td>
+                <td>Chone</td>
+                <td>2022-05-01</td>
+            </tr>
+                <tr>
+                <td>4523</td>
+                <td>Rodríguez Moreno</td>
+                <td>Sofía Ana</td>
+                <td>Bahía</td>
+                <td>2022-02-01</td>
+            </tr>
+        </table>
+    </body>
